@@ -17,7 +17,7 @@ export default function MyJourney() {
                     </div>
 
                     <div className="flex flex-col gap-6 z-10">
-                        <div className="flex flex-row items-center gap-7">
+                        <div className="flex flex-col md:flex-row items-center gap-7">
                             <div className="w-[100px] h-[100px] relative flex justify-center items-center">
                                 <img className='w-16 h-16 absolute rounded-full' src={osora} alt="" />
                                 <img className='absolute' src={FrameImage} alt="" />
@@ -29,7 +29,7 @@ export default function MyJourney() {
                             </div>
                         </div>
 
-                        <div className="flex flex-row items-center gap-7">
+                        <div className="flex flex-col md:flex-row items-center gap-7">
                             <div className="w-[100px] h-[100px] relative flex justify-center items-center">
                                 <img className='w-16 h-16 absolute rounded-full' src={rapidev} alt="" />
                                 <img className='absolute' src={FrameImage} alt="" />
@@ -41,26 +41,26 @@ export default function MyJourney() {
                             </div>
                         </div>
 
-                        <div className="flex flex-row items-center gap-7">
+                        <div className="flex flex-col md:flex-row items-center gap-7">
                             <div className="w-[100px] h-[100px] relative flex justify-center items-center">
                                 <img className='w-16 h-16 absolute rounded-full' src={amcc} alt="" />
                                 <img className='absolute' src={FrameImage} alt="" />
                             </div>
                             <div>
                                 <h3 className='font-extrabold text-xl md:text-2xl'>Instructor of Mobile Developer</h3>
-                                <p className='text-base font-Medium my-3'>Universitas Amikom Yogyakarta · AMCC (Amikom Computer Club)</p>
+                                <p className='text-base font-Medium my-3'>AMCC (Amikom Computer Club)</p>
                                 <p className='text-base font-Medium text-based-2'>Dec 2021 - Dec 2022</p>
                             </div>
                         </div>
 
-                        <div className="flex flex-row items-center gap-7">
+                        <div className="flex flex-col md:flex-row items-center gap-7">
                             <div className="w-[100px] h-[100px] relative flex justify-center items-center">
                                 <img className='w-16 h-16 absolute rounded-full' src={itc} alt="" />
                                 <img className='absolute' src={FrameImage} alt="" />
                             </div>
                             <div>
                                 <h3 className='font-extrabold text-xl md:text-2xl'>Instructor of Mobile Developer</h3>
-                                <p className='text-base font-Medium my-3'>Universitas Amikom Yogyakarta · Introduction To Computer</p>
+                                <p className='text-base font-Medium my-3'>Introduction To Computer</p>
                                 <p className='text-base font-Medium text-based-2'>Jul 2021- Oct 2021</p>
                             </div>
                         </div>

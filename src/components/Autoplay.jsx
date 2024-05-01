@@ -13,7 +13,7 @@ export default function Autoplay() {
         infinite: true,
         draggable: false,
         focusOnSelect: false,
-        slidesToShow: 8,
+        slidesToShow: 6,
         slidesToScroll: 2,
         autoplay: true,
         speed: 6000,
@@ -27,7 +27,7 @@ export default function Autoplay() {
             {
                 breakpoint: 2000,
                 settings: {
-                    slidesToShow: 8,
+                    slidesToShow: 6,
                 }
             },
             {

@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <div className="bg-based-1 rounded-t-2xl relative">
-            <div className='max-w-[1700px] mx-auto px-6 md:px-9 lg:px-32 py-6 pt-12 md:pt-32 md:pb-6 text-white z-10'>
+            <div className='max-w-[1700px] mx-auto px-6 md:px-9 lg:px-32 py-6 pt-12 md:pt-32 md:pb-6 text-white'>
                 <div className="w-full lg:w-1/2">
                     <div className="grid grid-cols-1 mb-8">
                         <div className='flex flex-row gap-6'>
@@ -27,7 +27,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <img className='absolute top-16 right-0 h-[550px] z-0' src={Treasure} alt="" />
+            <img className='absolute top-24 right-10 h-[450px] z-0 hidden lg:block' src={Treasure} alt="" />
 
             <div className='max-w-[1700px] mx-auto px-6 md:px-9 lg:px-32 py-6 pt-12 md:pt-16 md:pb-6 text-white'>
                 <div className="w-full lg:w-1/2">
@@ -40,8 +40,8 @@ export default function Footer() {
                     <a href='https://www.instagram.com/messworks' className='text-white'>Contact</a>
                 </div>
                 <div className='mt-14 mb-6 bg-white h-[1px] w-full'></div>
-                <div className="flex justify-between items-center">
-                    <div className="flex gap-9">
+                <div className="flex flex-col lg:flex-row justify-between items-center">
+                    <div className="flex flex-row gap-3 md:gap-9">
                         <Link to={'/'} ><img className='w-12 h-12' src={x} alt="" /></Link>
                         <Link to={'/'} ><img className='w-12 h-12' src={facebook} alt="" /></Link>
                         <Link to={'https://www.instagram.com/messworks'} ><img className='w-12 h-12' src={instagram} alt="" /></Link>

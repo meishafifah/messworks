@@ -27,13 +27,13 @@ export default function MyWorks() {
                     <Card title={'Kosmiku'} desc={'The Kosmiku website is your destination to discover the wonders of the sky and unravel mythical mysteries in one place, embarking on extraordinary adventures across the solar system and deep into space.'} icon={kosmiku} link={'https://kosmiku-astronomi-e-learning.vercel.app/'} />
                 </div>
 
-                <div className='bg-white rounded-3xl text-black mt-16 md:mt-36 py-28 flex justify-center text-center'>
+                <div className='bg-white rounded-3xl text-black mt-16 md:mt-36 py-14 md:py-28 flex justify-center text-center'>
                     <div className="w-4/5 md:w-3/4 grid grid-cols-1">
-                        <div className='flex flex-row gap-6 justify-center'>
+                        <div className='flex flex-row gap-6 justify-start lg:justify-center'>
                             <div className='w-2 rounded-2xl h-full bg-based'></div>
                             <h2 className='font-extrabold text-xl md:text-4xl'>Proficient Languages and Technologies</h2>
                         </div>
-                        <p className='text-sm md:text-base mt-6'>Explore my proficiency in essential front-end development languages and technologies. With expertise in HTML5, CSS3, and JavaScript (ES6+), I create dynamic and engaging web experiences. Leveraging front-end frameworks like React.js and Vue.js, I craft scalable and responsive applications.</p>
+                        <p className='text-sm md:text-base mt-6 mb-12'>Explore my proficiency in essential front-end development languages and technologies. With expertise in HTML5, CSS3, and JavaScript (ES6+), I create dynamic and engaging web experiences. Leveraging front-end frameworks like React.js and Vue.js, I craft scalable and responsive applications.</p>
                         <div  className='relative overflow-hidden'>
                             <Autoplay />
                         </div>
